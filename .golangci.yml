@@ -1,0 +1,10 @@
+linters:
+  disable-all: true
+  enable:
+    - loglint
+
+linters-settings:
+  custom:
+    loglint:
+      type: module
+      description: "Checks logs for formatting and sensitive data"

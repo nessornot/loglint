@@ -1,0 +1,5 @@
+version: v1.60.3
+plugins:
+  - module: 'github.com/nessornot/loglint'
+    import: 'github.com/nessornot/loglint/plugin'
+    path: .
